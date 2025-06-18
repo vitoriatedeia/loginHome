@@ -7,7 +7,9 @@ import { styles } from "../styles/styles";
 export default function Home() {
   return (
     <View style={styles.container}>
-      <Text>Seja muito bem vindo (a)!</Text>
+      <Text style={{ color: "#5B3d28", fontSize: 25, fontStyle: "italic" }}>
+        Seja muito bem vindo (a)!
+      </Text>
     </View>
   );
 }
